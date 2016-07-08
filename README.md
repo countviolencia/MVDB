@@ -3,3 +3,4 @@ Learning consumption of Api data by building a simple movie search viewer pullin
 ## Components Used
 * [IMDBPHP](https://github.com/tboothman/imdbphp)
 * [Milligram Css](https://milligram.github.io/)
+* [Responsive Lightbox](https://github.com/duncanmcdougall/Responsive-Lightbox)
