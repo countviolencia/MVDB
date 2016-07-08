@@ -1,0 +1,96 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "This file is @generated automatically"
+    ],
+    "hash": "0b0dd1a049e984c65528e5a456b3d77f",
+    "content-hash": "543e27fa2c1efd2a5f03663ff270c48c",
+    "packages": [
+        {
+            "name": "imdbphp/imdbphp",
+            "version": "v4.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/tboothman/imdbphp.git",
+                "reference": "21c2cc3510874a7162df0b3d38519574b4a12ad4"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/tboothman/imdbphp/zipball/21c2cc3510874a7162df0b3d38519574b4a12ad4",
+                "reference": "21c2cc3510874a7162df0b3d38519574b4a12ad4",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">5.3",
+                "psr/log": "~1.0"
+            },
+            "require-dev": {
+                "mockery/mockery": "~0.9",
+                "phpunit/phpunit": "~3.7"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "BrowserEmulator": "src/"
+                },
+                "psr-4": {
+                    "Imdb\\": "src/Imdb",
+                    "MoviePosterDb\\": "src/MoviePosterDb"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL-2.0"
+            ],
+            "description": "Library for retrieving film and tv information from IMDb",
+            "time": "2016-07-04 23:39:06"
+        },
+        {
+            "name": "psr/log",
+            "version": "1.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/php-fig/log.git",
+                "reference": "fe0936ee26643249e916849d48e3a51d5f5e278b"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/php-fig/log/zipball/fe0936ee26643249e916849d48e3a51d5f5e278b",
+                "reference": "fe0936ee26643249e916849d48e3a51d5f5e278b",
+                "shasum": ""
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "Psr\\Log\\": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "PHP-FIG",
+                    "homepage": "http://www.php-fig.org/"
+                }
+            ],
+            "description": "Common interface for logging libraries",
+            "keywords": [
+                "log",
+                "psr",
+                "psr-3"
+            ],
+            "time": "2012-12-21 11:40:51"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": []
+}

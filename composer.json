@@ -1,0 +1,5 @@
+{
+    "require": {
+        "imdbphp/imdbphp": "^4.0"
+    }
+}
