@@ -3,6 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <title>MVDB</title>
+    <link rel="stylesheet" href="bower_components/normalize.css/normalize.css">
+    <link rel="stylesheet" href="bower_components/milligram/dist/milligram.css">
 </head>
 <body>
     <form action="search.php" method="POST">
