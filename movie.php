@@ -25,5 +25,5 @@ echo $genre.'<br />';
 echo $plotOutline.'<br />';
 echo '<img src="'.$movieImage.'" alt="'.$movieTitle.'">';
 
-
+include "footer.php"; 
 ?>
