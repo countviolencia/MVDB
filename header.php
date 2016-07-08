@@ -5,6 +5,6 @@
     <link rel="stylesheet" href="bower_components/milligram/dist/milligram.css">
 </head>
 <body>
-
-<h1>Our Web Site</h1>
+    <div class="container">
+<a href = "http://localhost/mvdb/">Home</a>
 <!-- end header -->

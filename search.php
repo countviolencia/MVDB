@@ -24,5 +24,5 @@ foreach ($results as $result) { /* @var $result \Imdb\Title */
     //echo $result->title() . ' ( ' . $result->year() . ')'.'=>'.$imdbid.'<br />';
     echo '<a href="movie.php?imdbid='.$imdbid.'">'.$title.'</a> -> '.$year.'   ' .$movieType.'<br />';
 }
-
+include "footer.php"; 
 ?>
