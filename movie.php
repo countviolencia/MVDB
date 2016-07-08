@@ -83,7 +83,7 @@ echo '<div class="row">';
             echo "</table></td></tr>\n";
         }
     echo '</div>';// end of directors column
-echo '</div>';//end of row 2
+echo '</div>';//end of row two
 
 
 
