@@ -32,7 +32,7 @@ include "header.php";
 //formatted view with css
 echo '<div class="row">';
     echo '<div class="column column-30">';
-        echo '<img src="'.$movieImage.'" alt="'.$movieTitle.'">';
+        echo '<img src="'.$movieImage.'" alt="'.$movieTitle.'" class="thumbnail">';
     echo '</div>';//end of first outer coulmn
     echo '<div class="column column-70">';
         echo '<div class="row">';
