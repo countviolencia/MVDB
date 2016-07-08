@@ -14,6 +14,9 @@ $plotOutline = $title->plotoutline();
 $movieType = $title->movietype();
 $genre = $title->genre();
 $movieImage = $title->photo();
+$pageTitle = $movieTitle;
+//include header
+include "header.php";
 
 echo $movieTitle.'<br />';
 echo $movieType.'<br />';

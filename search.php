@@ -4,6 +4,8 @@ session_start();
 require __DIR__ . '/vendor/autoload.php';
 
 $movietitle = $_POST["movietitle"];
+$pageTitle = $movietitle;
+include "header.php"; 
 echo "You searched for <h1>".$movietitle."</h1><br />";
 
 // include "bootstrap.php"; // Load the class in if you're not using an autoloader
